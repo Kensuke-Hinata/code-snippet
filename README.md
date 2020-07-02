@@ -1,2 +1,2 @@
 # code-snippet
-code snippet collected from some tutorials or books.
+code snippet collected from some tutorials or books as reference.
