@@ -8,12 +8,6 @@ trait THelloWorld {
 #[derive(HelloWorld)]
 struct FrenchToast;
 
-//impl HelloWorld for FrenchToast {
-    //fn hello() {
-        //println!("Hello!");
-    //}
-//}
-
 fn main() {
     FrenchToast::hello();
 }
