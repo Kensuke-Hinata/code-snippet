@@ -16,5 +16,5 @@ object DateHelper {
   val ago = "ago"
   val from_now = "from_now"
 
-  implicit def convertInt2DateHelper(number: Int) = new DateHelper(number)
+  implicit def convertInt2DateHelper(number : Int) = new DateHelper(number)
 }
