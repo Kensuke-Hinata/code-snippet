@@ -1,0 +1,9 @@
+module plfa.part1.Naturals where
+
+data N : Set where
+    zero : N
+    suc : N -> N
+
+_+_ : N -> N -> N
+zero + n = n
+(suc m) + n = suc (m + n)
