@@ -7,3 +7,7 @@ data N : Set where
 _+_ : N -> N -> N
 zero + n = n
 (suc m) + n = suc (m + n)
+
+_*_ : N -> N -> N
+zero * n = zero
+(suc m) * n = n + (m * n)
