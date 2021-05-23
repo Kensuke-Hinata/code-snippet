@@ -11,3 +11,7 @@ zero + n = n
 _*_ : N -> N -> N
 zero * n = zero
 (suc m) * n = n + (m * n)
+
+_^_ : N -> N -> N
+m ^ zero = (suc zero)
+m ^ (suc n) = m * (m ^ n)
